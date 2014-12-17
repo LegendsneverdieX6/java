@@ -16,7 +16,7 @@ public class Doctor extends Person {// class Doctor derived from class Person
 	private double fee;
 	
 	public Doctor(String name, String profession, double fee1){ //constructor with 3 parameters
-		setName(name); //calls the name from class Person
+		super(name); //calls the name from class Person
 		specialty=profession;
 		fee=fee1;
 	}
