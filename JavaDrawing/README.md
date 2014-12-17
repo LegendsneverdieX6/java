@@ -1,2 +1,3 @@
 java
-Here are some projects completed during java programming class.
+This program draws cat, caterpillar, tree and christmas lights as shown in a picture.
+@All Rights Reserved
