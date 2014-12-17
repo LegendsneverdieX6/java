@@ -18,7 +18,7 @@ public class Patient extends Person { // class Patient derived from class Person
 		ID = null;
 	}
 	public Patient (String name, String number){//constructor with 2 parameters
-		setName(name);//calls the name from class person
+		super(name);//calls the name from class person
 		ID = number;
 	}
 	public void setID(String number){ //sets ID number
