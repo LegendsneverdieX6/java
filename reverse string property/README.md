@@ -1,2 +1,5 @@
-java
-Here are some projects completed during java programming class.
+This program determines the following word's criteria:
+
+If you move the first letter to the end of the word, and then spell the result backwards, you will get the original word.
+
+banana --> ananab --> banana
