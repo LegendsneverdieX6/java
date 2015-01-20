@@ -68,6 +68,7 @@ import java.lang.Object;
 	  for (i = 0; i <= 4; i++){
 	  xOffset = 15 * i;
 	  yOffset = 10 * i;
+          
                if (i % 2 == 0) {
                canvas.setColor(Color.green);//draws three circles that are parts of caterpillar
                canvas.fillOval(X_FACE0 + xOffset+30, Y_FACE0 + yOffset,FACE_DIAMETER, FACE_DIAMETER);
@@ -81,7 +82,8 @@ import java.lang.Object;
                 
                 canvas.setColor(Color.magenta); canvas.fillOval(X_CIRCLE + xOffset, Y_CIRCLE + yOffset,CIRCLE, CIRCLE);//little circles on the body of caterpillar
                }    
-  }
+                    }
+          
                 canvas.setColor(Color.BLUE); canvas.fillOval(X_RIGHT_EYE0 , Y_RIGHT_EYE0 , EYE_WIDTH, EYE_HEIGHT);//draws eyes of caterpillar
                 canvas.fillOval(X_LEFT_EYE0, Y_LEFT_EYE0, EYE_WIDTH, EYE_HEIGHT);  
                 canvas.setColor(Color.BLACK);//draws nose
@@ -101,8 +103,8 @@ import java.lang.Object;
 	    	      canvas.fillOval(100+x, 100+y, 20, 20);
 	    	      canvas.setColor(Color.BLACK);
 	    	      canvas.drawOval(100+x,100+y,20,20);
-    }
-              for (i = 0; i <= 7; i++){//draws little red circles on top
+            }
+                for (i = 0; i <= 7; i++){//draws little red circles on top
 		          int x=140*i;
 		          int y=13*i;
 		          canvas.setColor(Color.red);
@@ -111,8 +113,8 @@ import java.lang.Object;
 		          canvas.drawOval(120+x,50+y,20,20);
 		    }
     
-		  int []x = {220,300,240};//ears of cat
-		  int []y = {244,200,150};
+          int []x = {220,300,240};//ears of cat
+          int []y = {244,200,150};
 		  canvas.setColor(Color.BLUE);
 		  canvas.drawPolygon(x,y,3);
 		  canvas.fillPolygon(x,y,3);
